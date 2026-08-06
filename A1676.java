@@ -7,7 +7,7 @@ public class A1676 {
         int n = sc.nextInt();
         sc.nextLine(); 
         for(int i=0;i<n;i++){
-            String s = sc.nextLine();
+            String s = sc.next();
             int frist = (s.charAt(0)-'0') + (s.charAt(1)-'0') + (s.charAt(2)-'0');
             int last = (s.charAt(3)-'0')+(s.charAt(4)-'0')+(s.charAt(5)-'0');
 
